@@ -1,0 +1,1512 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:wght@300;500;700;900&display=swap"
+  rel="stylesheet"
+/>
+<style>
+  .elab_content #es-maybelline.es-maybelline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    max-width: 998px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    color: #000;
+    background: #fff;
+  }
+
+  .elab_content #es-maybelline.es-maybelline * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .elab_content #es-maybelline.es-maybelline h2,
+  .elab_content #es-maybelline.es-maybelline h3,
+  .elab_content #es-maybelline.es-maybelline h4,
+  .elab_content #es-maybelline.es-maybelline h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+  }
+
+  .elab_content #es-maybelline.es-maybelline sup {
+  font-size: 0.7em;
+  line-height: 0;
+}
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__logo {
+    background: #000;
+    padding: 20px 16px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__img-logo {
+    opacity: 0;
+    -webkit-animation: slidedown 0.6s forwards;
+    animation: slidedown 0.6s forwards;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__img-badge {
+    display: none;
+    padding-top: 24px;
+    margin-left: 0;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__img-photo {
+    width: 100%;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__img-packshot {
+    max-height: 300px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__img-info {
+    max-width: none;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__content {
+    position: relative;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__title {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: -1px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #e4b3c0;
+    line-height: 1;
+    opacity: 0;
+    -webkit-animation: slideright 0.6s forwards;
+    animation: slideright 0.6s forwards;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-text-fill-color: rgba(228, 179, 192, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__title span {
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: #fff;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__title sup {
+    line-height: 0;
+    font-size: 0.5em;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__title2 {
+    font-size: 19px;
+    color: #fff;
+    position: absolute;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: right;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    bottom: 22%;
+    right: 10%;
+    max-width: 80%;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__name {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 53px;
+    letter-spacing: -1px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__label {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 33px;
+    letter-spacing: -1px;
+    background: #000;
+    color: #fdc00f;
+    text-align: center;
+    max-width: 225px;
+    padding: 4px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 64px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__photo {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__packshot {
+    position: absolute;
+    bottom: 0;
+    left: -16px;
+    opacity: 0;
+    -webkit-animation: slideup 0.8s forwards;
+    animation: slideup 0.8s forwards;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__brand {
+    margin-bottom: 72px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-kv__disclaimer {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 10px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-features {
+    margin-bottom: 72px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-features__title {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    padding: 0 16px;
+    padding-top: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 38px;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-features__title span {
+    font-weight: 300;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-features__subtitle {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    padding: 0 16px;
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-features__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 32px 4px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-features__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-features__tile {
+    position: relative;
+    padding-bottom: 3px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-features__benefit {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px;
+    text-align: center;
+    min-height: 56px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-features__text {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-features__text sup {
+    line-height: 0;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-benefits {
+    margin-bottom: 72px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-benefits__title {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 56px;
+    letter-spacing: -1px;
+    margin-top: 74px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-benefits__text {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    padding-top: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-benefits__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-benefits__image img {
+    width: 100%;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-benefits__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-benefits__vegan {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-benefits__packshot {
+    display: none;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-benefits__content {
+    padding: 0 16px;
+    background: #fdc100;
+    padding: 32px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-benefits__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 16px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .elab_content
+    #es-maybelline.es-maybelline
+    .es-benefits__item:nth-child(2)
+    .es-benefits__text {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .elab_content
+    #es-maybelline.es-maybelline
+    .es-benefits__item:nth-child(3)
+    .es-benefits__text {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .elab_content
+    #es-maybelline.es-maybelline
+    .es-benefits__item:nth-child(4)
+    .es-benefits__text {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .elab_content
+    #es-maybelline.es-maybelline
+    .es-benefits__item:nth-child(5)
+    .es-benefits__text {
+    width: 100%;
+    max-width: 560px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-benefits__number {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-banner {
+    margin-bottom: 64px;
+    position: relative;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-banner__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: none;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-banner__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-banner__text {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    text-transform: uppercase;
+    padding: 0 16px;
+    padding-top: 16px;
+    font-size: 33px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-banner__text-1 {
+    font-weight: 700;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-banner__text sup {
+    line-height: 0;
+    font-size: 0.5em;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-banner__text {
+    position: absolute;
+    top: 12%;
+    padding: 0;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-banner__text-1 {
+    left: 37px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-colors {
+    background-color: #fdc00f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 16px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-colors__title {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: -1px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-colors__title span {
+    font-weight: 300;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-colors__text {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    margin-top: 24px;
+    border-top: 2px solid #000;
+    font-weight: 700;
+    padding: 16px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: -0.5px;
+    font-size: 18px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-colors__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 0px 16px;
+    margin-bottom: 46px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-colors__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -42px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-colors__single {
+    width: 136px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-colors__single:hover a {
+    color: #fc2561;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-colors a {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-weight: 700;
+    padding: 16px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: -0.5px;
+    background: #000;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 15px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-ba {
+    margin-bottom: 64px;
+    margin-top: -38px;
+    padding: 0px 16px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-ba__title {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    padding: 0 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-ba__title span {
+    font-weight: 300;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-ba__text {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    text-align: center;
+    max-width: 800px;
+    font-size: 18px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-ba__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-ba__before,
+  .elab_content #es-maybelline.es-maybelline .es-ba__after {
+    position: relative;
+    max-width: 459px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-ba__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-disc__text {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-cross {
+    padding: 40px 16px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-cross__title {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 38px;
+    letter-spacing: -1px;
+    margin-bottom: 56px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-cross__title span {
+    font-weight: 300;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-cross__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    gap: 32px 8px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-cross__single {
+    max-width: 292px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-cross__packshot {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    border-bottom: 2px solid #000;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-cross__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-cross__name {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-cross__desc {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    text-align: center;
+    margin-bottom: 16px;
+    letter-spacing: -1px;
+    min-height: 58px;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-cross a {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-footer__text {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .elab_content #es-maybelline.es-maybelline .es-footer__logo {
+    background: #000;
+    padding: 20px 16px;
+  }
+
+  @media screen and (min-width: 560px) {
+    .elab_content #es-maybelline.es-maybelline .es-kv__title {
+      font-size: 48px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      overflow: hidden;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__photo {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -ms-flex-preferred-size: 53%;
+      flex-basis: 53%;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__packshot {
+      bottom: 0;
+      left: -24px;
+      right: unset;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__img-badge {
+      margin-right: 16px;
+      margin-left: auto;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__img-photo {
+      -o-object-fit: cover;
+      object-fit: cover;
+      height: 100%;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__content {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -ms-flex-preferred-size: 47%;
+      flex-basis: 47%;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .elab_content #es-maybelline.es-maybelline .es-kv {
+      padding-top: 37px;
+      position: relative;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__title {
+      margin: 0;
+      padding: 0;
+      line-height: inherit;
+      color: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      position: absolute;
+      bottom: 32px;
+      left: 32px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 64px;
+      letter-spacing: -1px;
+      font-family: 'Roboto Condensed', sans-serif;
+      color: #e4b3c0;
+      line-height: 1;
+      opacity: 0;
+      -webkit-animation: slideright 0.6s forwards;
+      animation: slideright 0.6s forwards;
+      -webkit-animation-delay: 0.4s;
+      animation-delay: 0.4s;
+      -webkit-text-fill-color: rgba(228, 179, 192, 0);
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #fff;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__title span {
+      color: #fff;
+      -webkit-text-fill-color: #fff;
+      -webkit-text-stroke-width: 0;
+      -webkit-text-stroke-color: #fff;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__title sup {
+      line-height: 0;
+      font-size: 0.5em;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__title2 {
+      font-size: 19px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      bottom: 22%;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__img-badge {
+      display: block;
+      padding: 0;
+      margin: 0;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__badge {
+      position: absolute;
+      top: 0;
+      right: 40px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-kv__info {
+      top: 58px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-benefits {
+      padding: 16px 0;
+      margin-bottom: 0;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-benefits__title {
+      margin: 0;
+      padding: 0;
+      line-height: inherit;
+      color: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      font-weight: 700;
+      line-height: 1;
+      text-transform: uppercase;
+      font-size: 56px;
+      letter-spacing: -1px;
+      font-family: 'Roboto Condensed', sans-serif;
+      color: #fff;
+      text-align: left;
+      margin-left: 28%;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-benefits__text {
+      margin: 0;
+      padding: 0;
+      line-height: inherit;
+      color: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      padding-top: 16px;
+      font-weight: 300;
+      font-size: 19px;
+      text-align: left;
+      margin-bottom: 20px;
+      margin-left: 28%;
+      text-transform: none;
+      padding-right: 18px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-benefits__item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      gap: 16px;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+    .elab_content
+      #es-maybelline.es-maybelline
+      .es-benefits__item:nth-child(2)
+      .es-benefits__text {
+      width: 100%;
+      max-width: 320px;
+      text-align: left;
+    }
+    .elab_content
+      #es-maybelline.es-maybelline
+      .es-benefits__item:nth-child(3)
+      .es-benefits__text {
+      width: 100%;
+      max-width: 400px;
+    }
+    .elab_content
+      #es-maybelline.es-maybelline
+      .es-benefits__item:nth-child(4)
+      .es-benefits__text {
+      width: 100%;
+      max-width: 480px;
+    }
+    .elab_content
+      #es-maybelline.es-maybelline
+      .es-benefits__item:nth-child(5)
+      .es-benefits__text {
+      width: 100%;
+      max-width: 560px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-benefits__vegan {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+      margin-left: 30%;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-benefits__packshot {
+      position: absolute;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+      padding: 0;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    .elab_content #es-maybelline.es-maybelline .es-benefits__container {
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse;
+      flex-flow: row-reverse;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-benefits__image {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      padding: 0;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-benefits__image img {
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      max-width: none;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-benefits__content {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      background: #fdc100;
+      padding: 64px 0;
+      margin: 0;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-ba {
+      margin-top: 56px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-banner__text {
+      top: 50%;
+      left: 37px;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      font-size: 65px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-features__single {
+      max-width: 330px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-features__img {
+      -webkit-transition: opacity 0.3s;
+      transition: opacity 0.3s;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-features__tile {
+      overflow: hidden;
+    }
+    .elab_content
+      #es-maybelline.es-maybelline
+      .es-features__tile:hover
+      .es-features__img {
+      opacity: 0.8;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-colors__text {
+      margin: 0;
+      padding: 0;
+      line-height: inherit;
+      color: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      margin-top: 24px;
+      border-top: 2px solid #000;
+      font-weight: 700;
+      padding: 16px 0;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'Roboto Condensed', sans-serif;
+      letter-spacing: -0.5px;
+      font-size: 16px;
+      min-width: 124px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-colors__single {
+      width: 132px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-colors__container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      gap: 0px 6px;
+      margin-bottom: 46px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-colors__img {
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .elab_content
+      #es-maybelline.es-maybelline
+      .es-colors__tile:hover
+      .es-colors__img {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    .elab_content #es-maybelline.es-maybelline .es-cross__desc {
+      min-height: 78px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-cross__name {
+      min-height: 38px;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-cross__img {
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .elab_content #es-maybelline.es-maybelline .es-cross a {
+      -webkit-transition: color 0.3s;
+      transition: color 0.3s;
+    }
+    .elab_content
+      #es-maybelline.es-maybelline
+      .es-cross__single:hover
+      .es-cross__img {
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+    .elab_content #es-maybelline.es-maybelline .es-cross__single:hover a {
+      color: #fc2561;
+    }
+  }
+
+  @media screen and (min-width: 998px) {
+    .elab_content #es-maybelline.es-maybelline .es-kv__img-packshot {
+      max-height: none;
+    }
+  }
+
+  @-webkit-keyframes appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes slideup {
+    from {
+      opacity: 0;
+      -webkit-transform: translateY(32px);
+      transform: translateY(32px);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideup {
+    from {
+      opacity: 0;
+      -webkit-transform: translateY(32px);
+      transform: translateY(32px);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  @-webkit-keyframes slidedown {
+    from {
+      opacity: 0;
+      -webkit-transform: translateY(-32px);
+      transform: translateY(-32px);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slidedown {
+    from {
+      opacity: 0;
+      -webkit-transform: translateY(-32px);
+      transform: translateY(-32px);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  @-webkit-keyframes slideright {
+    0% {
+      opacity: 0.3;
+      -webkit-transform: translateX(-100px);
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideright {
+    0% {
+      opacity: 0.3;
+      -webkit-transform: translateX(-100px);
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+
+  @-webkit-keyframes slideleft {
+    from {
+      opacity: 0.3;
+      -webkit-transform: translateX(100px);
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideleft {
+    from {
+      opacity: 0.3;
+      -webkit-transform: translateX(100px);
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+</style>
+<div class="elab_content inpageWidthLimit">
+  <div class="es-maybelline" id="es-maybelline">
+    <div class="es-kv">
+      <div class="es-kv__logo">
+        <img src="images/logo.png" alt="" class="es-kv__img es-kv__img-logo" />
+      </div>
+      <div class="es-kv__container">
+        <div class="es-kv__photo">
+          <img
+            src="images/photo-1-2.png"
+            alt=""
+            class="es-kv__img es-kv__img-photo"
+          />
+          <h2 class="es-kv__title">
+            COLOSSAL <br />CURL BOUNCE<br />
+            <span></span>
+          </h2>
+        </div>
+        <div></div>
+        <div class="es-kv__content">
+          <div class="es-kv__photo">
+            <p class="es-kv__title2">
+              ПОДНИМИ СВОИ РЕСНИЦЫ!<br />
+              ОБЪЕМ И ПОДКРУЧИВАНИЕ<br />
+              ДО 24H<sup>*</sup>
+            </p>
+            <img
+              src="images/photo-kv.png"
+              alt=""
+              class="es-kv__img es-kv__img-photo"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="es-features">
+      <h3 class="es-features__title">
+        <span>
+ОТКРОЙ ДЛЯ СЕБЯ ТУШЬ ДЛЯ РЕСНИЦ </span> Colossal Curl Bounce
+      </h3>
+      <p class="es-features__subtitle">
+        Инновационная веганская формула обладает стойкостью до 24 часов* и не оставляет комочков. Спиралевидная щеточка тщательно разделяет ресницы и облегчает равномерное нанесение туши. Результат - объемные и подкрученные ресницы!</p>
+      <div class="es-features__container">
+        <div class="es-features__single">
+          <div class="es-features__tile">
+            <img src="images/feature-1.png" alt="" class="es-features__img" />
+          </div>
+          <p class="es-features__benefit">ОБЪЕМ И УДЛИНЕНИЕ</p>
+          <p class="es-features__text">Без комочков.</p>
+        </div>
+        <div class="es-features__single">
+          <div class="es-features__tile">
+            <img src="images/feature-2.png" alt="" class="es-features__img" />
+          </div>
+          <p class="es-features__benefit">ЭФФЕКТ ПОДКРУЧЕННЫХ РЕСНИЦ</p>
+          <p class="es-features__text">
+            Без щипцов, до 24H*.
+          </p>
+        </div>
+        <div class="es-features__single">
+          <div class="es-features__tile">
+            <img src="images/feature-3.png" alt="" class="es-features__img" />
+          </div>
+          <p class="es-features__benefit">СПИРАЛЕВИДНАЯ ЩЕТОЧКА</p>
+          <p class="es-features__text">
+            Разделяет ресницы и облегчает равномерное нанесение.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="es-benefits">
+      <div class="es-benefits__container">
+        <div class="es-benefits__packshot">
+          <img
+            src="images/benefits-packshot.png"
+            alt=""
+            class="es-benefits__img"
+          />
+        </div>
+        <div class="es-benefits__content">
+          <h2 class="es-benefits__title">ВЕГАНСКАЯ <br />ФОРМУЛА</h2>
+
+          <p class="es-benefits__text">
+            Формула, протестированная аллергологами и офтальмологами, подходит для чувствительных глаз и для носителей контактных линз.
+          </p>
+
+          <div>
+            <img
+              src="images/vegan-logo.png"
+              alt=""
+              class="es-benefits__vegan"
+            />
+          </div>
+        </div>
+        <div class="es-benefits__image">
+          <img src="images/photo-2.png" alt="" class="es-benefits__img" />
+        </div>
+      </div>
+    </div>
+
+    <div class="es-ba">
+      <h3 class="es-ba__title">
+        <span>КОЛОССАЛЬНЫЙ</span> РЕЗУЛЬТАТ!
+      </h3>
+      <p class="es-ba__text">
+        Для достижения наилучшего результата наноси тушь от корней до кончиков ресниц зигзагообразным движением, направляя щеточку вверх. Не позволяй ресницам высыхать между нанесением слоев туши для еще лучшего эффекта.
+      </p>
+      <div class="es-ba__container">
+        <div class="es-ba__before">
+          <img src="images/before.png" alt="" class="es-ba__img" />
+        </div>
+        <div class="es-ba__after">
+          <img src="images/after.png" alt="" class="es-ba__img" />
+        </div>
+      </div>
+    </div>
+
+    <div class="es-colors">
+      <h3 class="es-colors__title">
+        <span></span> ОТКРОЙ ДЛЯ СЕБЯ ДРУГИЕ ВИДЫ ТУШИ ИЗ СЕРИИ COLOSSAL
+      </h3>
+      <div class="es-colors__container">
+        <div class="es-colors__single">
+          <div class="es-colors__tile">
+            <img src="images/color-1.png" alt="" class="es-colors__img" />
+          </div>
+          <p class="es-colors__text">
+            colossal<br />
+            glam black
+          </p>
+          <a
+            href="https://www.drogas.lv/ru/kosmetika/dlya-glaz/tushi-dlya-resnits/maybelline-colossal-tush-dlya-resnits-black-1017ml/p/BP_61273"
+            target="_blank"
+            class="es-colors__link"
+            >УЗНАТЬ БОЛЬШЕ</a
+          >
+        </div>
+        <div class="es-colors__single">
+          <div class="es-colors__tile">
+            <img src="images/color-2.png" alt="" class="es-colors__img" />
+          </div>
+          <p class="es-colors__text">
+            colossal<br />
+            100% black
+          </p>
+          <a
+            href="https://www.drogas.lv/ru/kosmetika/dlya-glaz/tushi-dlya-resnits/maybelline-colossal-100-black-tush-dlya-resnits-107ml/p/BP_86560 "
+            target="_blank"
+            class="es-colors__link"
+            >УЗНАТЬ БОЛЬШЕ</a
+          >
+        </div>
+        <div class="es-colors__single">
+          <div class="es-colors__tile">
+            <img src="images/color-3.png" alt="" class="es-colors__img" />
+          </div>
+          <p class="es-colors__text">
+            colossal<br />
+            waterproof
+          </p>
+          <a
+            href="https://www.drogas.lv/ru/kosmetika/dlya-glaz/tushi-dlya-resnits/maybelline-colossal-waterproof-tush-dlya-resnits-black-10ml/p/BP_86553"
+            target="_blank"
+            class="es-colors__link"
+            >УЗНАТЬ БОЛЬШЕ</a
+          >
+        </div>
+        <div class="es-colors__single">
+          <div class="es-colors__tile">
+            <img src="images/color-4.png" alt="" class="es-colors__img" />
+          </div>
+          <p class="es-colors__text">
+            colossal<br />
+            smoky black
+          </p>
+          <a href=" https://www.drogas.lv/ru/kosmetika/dlya-glaz/tushi-dlya-resnits/maybelline-colossal-smoky-black-tush-dlya-resnits-107ml/p/BP_182103" target="_blank" class="es-colors__link">УЗНАТЬ БОЛЬШЕ</a>
+        </div>
+        <div class="es-colors__single">
+          <div class="es-colors__tile">
+            <img src="images/color-5.png" alt="" class="es-colors__img" />
+          </div>
+          <p class="es-colors__text">
+            colossal<br />
+            36h waterproof
+          </p>
+          <a
+            href="https://www.drogas.lv/ru/kosmetika/dlya-glaz/tushi-dlya-resnits/maybelline-colossal-36h-vodostoykaya-tush-dlya-resnits-black-10ml/p/BP_457518"
+            target="_blank"
+            class="es-colors__link"
+            >УЗНАТЬ БОЛЬШЕ</a
+          >
+        </div>
+        <div class="es-colors__single">
+          <div class="es-colors__tile">
+            <img src="images/color-6.png" alt="" class="es-colors__img" />
+          </div>
+          <p class="es-colors__text">
+            colossal<br />
+            big shot
+          </p>
+          <a
+            href="https://www.drogas.lv/ru/kosmetika/dlya-glaz/tushi-dlya-resnits/maybelline-colossal-big-shot-tush-dlya-resnits-black-95ml/p/BP_317245"
+            target="_blank"
+            class="es-colors__link"
+            >УЗНАТЬ БОЛЬШЕ</a
+          >
+        </div>
+        <div class="es-colors__single">
+          <div class="es-colors__tile">
+            <img src="images/color-7.png" alt="" class="es-colors__img" />
+          </div>
+          <p class="es-colors__text">
+            colossal big shot<br />
+            darling black
+          </p>
+          <a
+            href="https://www.drogas.lv/ru/kosmetika/dlya-glaz/tushi-dlya-resnits/maybelline-colossal-big-shot-tush-dlya-resnits-daring-black-95ml/p/BP_354548"
+            class="es-colors__link"
+            target="_blank"
+            >УЗНАТЬ БОЛЬШЕ</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="es-cross">
+      <h3 class="es-cross__title">ДОПОЛНИ <span>СВОЙ МАКИЯЖ</span></h3>
+      <div class="es-cross__container">
+        <div class="es-cross__single">
+          <div class="es-cross__packshot">
+            <img src="images/cross-1.png" alt="" class="es-cross__img" />
+          </div>
+          <p class="es-cross__name">Hyper Precise <br> лайнер для глаз
+</p>
+          <p class="es-cross__desc">
+            Предназначен для создания идеальных стрелок. 
+            Ультратонкий аппликатор толщиной всего 0,4 мм создает ровные, четкие линии.
+
+          </p>
+          <a href="https://www.drogas.lv/ru/kosmetika/dlya-glaz/podvodki/maybelline-hyper-precise-all-day-layner-dlya-glaz-matte-black-1ml/p/BP_352070" target="_blank" class="es-cross__link">УЗНАТЬ БОЛЬШЕ</a>
+        </div>
+        <div class="es-cross__single">
+          <div class="es-cross__packshot">
+            <img src="images/cross-2.png" alt="" class="es-cross__img" />
+          </div>
+          <p class="es-cross__name">КОНСИЛЕР С ПЛОТНЫМ ПОКРЫТИЕМ SUPERSTAY ACTIVE WEAR 30H</p>
+          <p class="es-cross__desc">
+            Создает плотное матовое покрытие со стойкостью
+            до 30 часов** и естественным финишем.
+
+          </p>
+          <a href="https://www.drogas.lv/ru/kosmetika/dlya-litsa/konsilery/maybelline-new-york-super-stay-active-wear-konsiler-10ml/p/BP_480730" target="_blank" class="es-cross__link">УЗНАТЬ БОЛЬШЕ</a>
+        </div>
+        <!-- <div class="es-cross__single">
+          <div class="es-cross__packshot">
+            <img src="images/cross-3.png" alt="" class="es-cross__img" />
+          </div>
+          <p class="es-cross__name">КАРАНДАШ ДЛЯ БРОВЕЙ EXPRESS BROW ULTRA SLIM</p>
+          <p class="es-cross__desc">
+            Карандаш со щеточкой придает бровям естественный эффект. Простое и быстрое нанесение!
+          </p>
+          <a href="" target="_blank" class="es-cross__link">УЗНАТЬ БОЛЬШЕ</a>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="es-disc">
+      <p class="es-disc__text"><sup>*</sup>Потребительский тест</p>
+    </div>
+
+    <div class="es-footer">
+      <div class="es-footer__logo">
+        <img src="images/logo.png" alt="" class="es-kv__img" />
+      </div>
+    </div>
+  </div>
+</div>
